@@ -1,0 +1,85 @@
+.head{
+    height: 120px;
+    background-color: rgba(75, 74, 74, 0.233);
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.main{
+    
+    display: grid;
+    grid-template-columns: 46vh 46vh 46vh;
+  
+   
+    justify-content: space-around;
+    justify-items: center;
+}
+.card{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    
+    position: relative;
+}
+.image{
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    width: 299px;
+    height: 200px;
+    
+}
+.coast{
+    font-size: 25px;
+    text-align: right;
+    margin: 5px;
+}
+.info{
+    font-size: 15px;
+    margin: 5px;
+}
+.buy{
+  
+    height: 46px;
+    width: 110px;
+    background-color: blue;
+    margin-left: 97px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.buy:hover{
+    background-color: rgb(45, 45, 255);
+}
+.buy:active{
+    background-color: rgb(12, 12, 158);
+    transform: scale(0.99);
+}
+@media(max-width: 1200px)
+{
+    .main{
+        display: grid;
+        grid-template-columns: 46vh 46vh ;
+       
+        
+        
+    }
+    .card{
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width: 768px)
+{
+    .main{
+        display: grid;
+        grid-template-columns: 46vh  ;
+        
+        
+        
+    }
+    .card{
+        margin-top: 20px;
+    }
+    
+}
